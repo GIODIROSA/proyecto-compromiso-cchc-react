@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext');
+
+
 .btn-pasos {
     background-color: rgb(0, 110, 220);
     outline: none;
@@ -18,4 +21,50 @@
 
 .btn-pasos:hover {
     background-color: #e74100;
+}
+
+.titulo-compromiso {
+    font-family: "Lato", sans-serif;
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgba(0, 110, 220);
+}
+
+.modificador-titulo-compromiso {
+    color: #e74100;
+
+}
+
+.contenedor-general-componentes {
+    max-width: 1140px;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.contenedor-bajada {
+    max-width: 450px;
+}
+
+.bajada-pasos {
+    color: rgb(135, 135, 135);
+    font-family: "Lato", sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+
+}
+
+.modificar-texto-bajada {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+
+
 }

@@ -1,5 +1,6 @@
 import Banner from "./components/Banner";
 import Pasos from "./components/Pasos";
+import SegundoPasos from "./components/SegundoPasos";
 
 function App() {
   const datoBanner = {
@@ -13,8 +14,8 @@ function App() {
   const pasos = {
     titulo_uno: "AUTOEVALÚA TU",
     titulo_dos: "DESEMPEÑO",
-    bajada_pasos:
-      "Realiza una autoevaluación que te ayudará a conocer qué tan avanzada está tú obra, centro de trabajo o empresa en materia de sostenibilidad.",
+    titulo_tres: "USA",
+    titulo_cuatro: "HERRAMIENTAS",
   };
 
   return (

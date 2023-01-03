@@ -12,6 +12,7 @@
 .contenedor-img-banner img {
     width: 100%;
     height: 100%;
+    overflow-y: hidden;
 }
 
 .bg-img {
@@ -20,7 +21,7 @@
     background-color: rgba(0, 110, 220, 0.4);
     z-index: 1;
     position: absolute;
-    bottom: 0;
+    bottom: 3px;
     clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 30% 100%, 30% 80%, 0% 80%);
 
 }
@@ -80,4 +81,11 @@
 .contenedor-isologotipo-banner img {
     width: 100%;
     height: 100%;
+}
+
+.linea-divisoria{
+    width: 348px;
+    height: 2px;
+    background-color: rgb(222, 222, 222);
+    border: 0;
 }

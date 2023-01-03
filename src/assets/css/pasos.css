@@ -16,6 +16,7 @@
     justify-content: center;
     transition: all 0.3s ease 0s;
     outline: none;
+    cursor: pointer;
 
 }
 
@@ -35,6 +36,7 @@
 
 .modificador-titulo-compromiso {
     color: #e74100;
+    font-weight: 900;
 
 }
 
@@ -65,6 +67,4 @@
 .modificar-texto-bajada {
     font-family: "Lato", sans-serif;
     font-weight: 900;
-
-
 }

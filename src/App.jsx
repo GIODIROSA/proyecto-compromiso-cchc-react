@@ -16,6 +16,15 @@ function App() {
     titulo_dos: "DESEMPEÑO",
     titulo_tres: "USA",
     titulo_cuatro: "HERRAMIENTAS",
+    titulo_cinco: "APRENDE DE",
+    titulo_seis: "OTROS",
+    titulo_siete: "SÚMATE AL",
+    titulo_ocho: "SELLO PRO",
+    titulo_nueve: "INFORMA Y",
+    titulo_diez: "PARTICIPA",
+    titulo_once: "INFORMA Y",
+    titulo_doce: "PARTICIPA",
+
   };
 
   return (

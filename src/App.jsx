@@ -1,6 +1,6 @@
 import Banner from "./components/Banner";
 import Pasos from "./components/Pasos";
-import SegundoPasos from "./components/SegundoPasos";
+import Footer from "./components/Footer";
 
 function App() {
   const datoBanner = {
@@ -24,13 +24,13 @@ function App() {
     titulo_diez: "PARTICIPA",
     titulo_once: "INFORMA Y",
     titulo_doce: "PARTICIPA",
-
   };
 
   return (
     <div>
       <Banner datoBanner={datoBanner} />
       <Pasos pasos={pasos} />
+      <Footer />
     </div>
   );
 }

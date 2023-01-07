@@ -68,3 +68,28 @@
     font-family: "Lato", sans-serif;
     font-weight: 900;
 }
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+    .contenedor-general-componentes {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .contenedor-titulo-contenido {
+        padding: 0 10px;
+    }
+
+    .contenedor-btn-pasos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo-compromiso{
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+}

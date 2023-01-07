@@ -2,4 +2,121 @@
     background-color: rgb(0, 110, 220);
     height: 350px;
     width: 100%;
-} 
+}
+
+.contenido-footer {
+    max-width: 1300px;
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 0px;
+}
+
+.contenido-logotipos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+.titulo-footer {
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 67px;
+}
+
+.sello,
+.logoCompromiso,
+.logo-cchc {
+    width: 120px;
+}
+
+.contenedor-mail-icono {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icono-footer {
+    color: #fff;
+    font-size: 22px;
+}
+
+.correo-compromiso {
+    font-size: 22px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    line-height: 24px;
+    margin: 0;
+}
+
+.icono-texto {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.telf-compromiso {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    line-height: 24px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+
+    .contenedor-footer {
+        height: auto;
+    }
+
+    .contenido-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5rem 0px;
+    }
+
+    .titulo-footer {
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .contenedor-mail-icono {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        margin: 50px 0px 10px 0px;
+    }
+
+    .icono-texto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 50px;
+    }
+
+
+    .contenido-logotipos {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1.5rem;
+    }
+}

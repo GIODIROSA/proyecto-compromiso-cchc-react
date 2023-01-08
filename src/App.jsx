@@ -1,6 +1,8 @@
+import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Pasos from "./components/Pasos";
 import Footer from "./components/Footer";
+
 
 function App() {
   const datoBanner = {
@@ -28,6 +30,7 @@ function App() {
 
   return (
     <div>
+      <Navbar/>
       <Banner datoBanner={datoBanner} />
       <Pasos pasos={pasos} />
       <Footer />

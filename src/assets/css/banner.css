@@ -89,3 +89,9 @@
     background-color: rgb(222, 222, 222);
     border: 0;
 }
+
+@media (width < 500px) {
+    .contenedor-banner-general {
+        display: none;
+    }
+}
